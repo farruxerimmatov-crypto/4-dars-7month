@@ -11,7 +11,7 @@ import { CreateSwaggerArticleDTo } from './dto/create-swagger.article.dto';
 import { AuthGuard } from 'src/common/guard/auth.guard';
 import { RolesGuard } from 'src/common/guard/roles.guard';
 import { Roles } from 'src/common/decorators/roles.decorators';
-import { UserRole } from 'src/shared/constant/user.role';
+import { UserRole } from 'src/shared/user.role';
 import { QueryDto } from './dto/query.dto';
 
 @ApiBearerAuth("JWT-auth")
